@@ -33,9 +33,9 @@ class Person(
         get() = this.age >= 20
 
     // Getter #2
-    fun isAdult(): Boolean {
-        return this.age >= 20
-    }
+    // fun isAdult(): Boolean {
+    //     return this.age >= 20
+    // }
 
     // custom getter
     // field == backing field := 외부엔 보이지 않고 자기 자신만 볼 수 있는 예약어
